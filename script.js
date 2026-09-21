@@ -121,3 +121,8 @@ function mostraResultado(){
 }
 
 mostraPergunta();
+
+function aleatorio (lilas){
+    const posicao = Math.flooor(Math.random()*lista.length);
+    return lista[posicao];
+}
